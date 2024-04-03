@@ -1,0 +1,166 @@
+/* Booking.css */
+
+/* Default styles */
+.booking-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.booking-icon {
+    background-color: #e7dfdf;
+    height: 30px;
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.booking-icon img {
+    height: 30px;
+    width: 20px;
+}
+
+.booking-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%; /* Adjusted for responsiveness */
+    max-width: 950px; /* Maximum width */
+    height: auto; /* Adjusted for responsiveness */
+    margin: auto; /* Center the card */
+}
+
+.booking-header {
+    display: flex;
+    align-items: center;
+}
+
+.booking-info div {
+    display: inline-block;
+    padding-right: 1rem;
+    width: 150px; /* Adjusted for responsiveness */
+}
+
+.booking-title {
+    flex: 1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.expand-button {
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+}
+
+.down-img {
+    width: 20px;
+    height: 15px;
+    padding-right: 10px;
+}
+
+.booking-details {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-label {
+    display: inline-block;
+    color: gray;
+    padding-right: 100px;
+    width: 195px; /* Adjusted for responsiveness */
+}
+
+.info-value {
+    display: inline-block;
+    margin-top: 0;
+    width: 100%; /* Adjusted for responsiveness */
+}
+
+.booking-actions {
+    margin-top: 20px;
+}
+
+.invoice-button,
+.receipt-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.invoice-button:hover,
+.receipt-button:hover {
+    background-color: #2980b9;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.balance,
+.scheduled,
+.attended {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.bar {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon i,
+.icon img {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.icon img {
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 6px;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.attended {
+    color: green;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .booking-card {
+        padding: 15px;
+    }
+
+    .booking-info div {
+        padding-right: 0.5rem;
+        width: 100%; /* Adjusted for responsiveness */
+    }
+
+    .info-label {
+        padding-right: 10px;
+        width: auto; /* Adjusted for responsiveness */
+    }
+}
