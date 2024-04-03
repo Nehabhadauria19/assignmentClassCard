@@ -1,4 +1,4 @@
-Creating a README.md file for a GitHub repository hosting a Figma webpage can provide valuable information about the project, how to view the Figma design, and any other relevant details. Here's an example README.md file:
+
 
 ```markdown
 # Figma Webpage Design
