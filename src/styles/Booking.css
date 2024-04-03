@@ -1,166 +1,179 @@
-/* Booking.css */
 
-/* Default styles */
 .booking-container {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
-    box-sizing: border-box;
-}
-
-.booking-icon {
+  }
+  .booking-icon{
     background-color: #e7dfdf;
-    height: 30px;
+    height:30px ;
     width: 40px;
     padding: 10px;
     border-radius: 10px;
-}
-
-.booking-icon img {
+  }
+  
+  .booking-icon img {
     height: 30px;
     width: 20px;
-}
-
-.booking-card {
+    
+  }
+  
+  .booking-card {
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    width: 100%; /* Adjusted for responsiveness */
-    max-width: 950px; /* Maximum width */
-    height: auto; /* Adjusted for responsiveness */
-    margin: auto; /* Center the card */
-}
-
-.booking-header {
+    width: 950px;
+    height: 450px;
+  }
+  
+  .booking-header {
     display: flex;
     align-items: center;
-}
-
-.booking-info div {
+  }
+  .booking-info div{
     display: inline-block;
-    padding-right: 1rem;
-    width: 150px; /* Adjusted for responsiveness */
-}
-
-.booking-title {
+   
+    padding-right: 60px;
+    width: 150px;
+  }
+  
+  .booking-icon {
+    margin-right: 10px;
+  }
+  
+  .booking-icon img {
+    width: 40px;
+  }
+  
+  .booking-title {
     flex: 1;
     font-size: 20px;
     font-weight: bold;
-}
-
-.expand-button {
+  }
+  
+  .expand-button {
     color: white;
     border: none;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     font-size: 24px;
-}
-
-.down-img {
+  }
+  
+  .down-img {
     width: 20px;
+    padding-top: 5px;
     height: 15px;
     padding-right: 10px;
-}
-
-.booking-details {
+  }
+  
+  .booking-details {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-}
-
-.info-label {
+  }
+  
+  .info-label {
     display: inline-block;
     color: gray;
     padding-right: 100px;
-    width: 195px; /* Adjusted for responsiveness */
-}
-
-.info-value {
+    width: 195px; /* Adjust width to create space */
+  }
+  
+  .info-value {
     display: inline-block;
     margin-top: 0;
-    width: 100%; /* Adjusted for responsiveness */
-}
-
-.booking-actions {
+    /* width: 115px; */
+    /* margin-left: 195px; /* Adjust spacing between label and value */
+    /* padding-inline-end: 90px; */
+  }
+  
+  .booking-actions {
     margin-top: 20px;
-}
-
-.invoice-button,
-.receipt-button {
+  }
+  
+  
+  .invoice-button,
+  .receipt-button {
     background-color: white;
     color: black;
     border: 1px solid black;
     border-radius: 5px;
     margin-right: 10px;
-}
-
-.invoice-button:hover,
-.receipt-button:hover {
+  }
+  
+  .invoice-button:hover,
+  .receipt-button:hover {
     background-color: #2980b9;
-}
-
-.App {
+  }
+  .App {
     display: flex;
     flex-direction: column;
     background-color: #f5f5f5;
     margin-top: 50px;
     padding: 10px;
     border-radius: 10px;
-}
-
-.balance,
-.scheduled,
-.attended {
+  }
+  
+  .balance, .scheduled, .attended {
     margin-bottom: 20px;
     margin-left: 10px;
-}
-
-.bar {
+  }
+  
+  .bar {
     display: flex;
-}
-
-.icon {
+  }
+  
+  /* .filled {
+    background-color: green;
+    height: 10px;
+    flex: 1;
+  } */
+  
+  /* .empty {
+    background-color: lightgray;
+    height: 10px;
+    flex: 1;
+  } */
+  
+  .icon {
     display: flex;
-}
-
-.icon i,
-.icon img {
+    
+  }
+  .icon i{
     border: 1px solid black;
     padding: 3px;
     border-radius: 5px;
     margin-left: 5px;
-}
-
-.icon img {
+  }
+  .icon img{
     height: 25px;
     margin-left: 5px;
     border-radius: 6px;
-}
-
-.checkbox {
+  }
+  
+  /* .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+  } */
+  
+  .checkbox {
     display: inline-block;
     width: 20px;
     height: 20px;
-}
-
-.attended {
+  }
+  
+  /* .checked {
+    background-color: green;
+  } */
+  
+  .unchecked {
+    background-color: red;
+  }
+  .attended{
     color: green;
-}
-
-/* Responsive styles */
-@media only screen and (max-width: 768px) {
-    .booking-card {
-        padding: 15px;
-    }
-
-    .booking-info div {
-        padding-right: 0.5rem;
-        width: 100%; /* Adjusted for responsiveness */
-    }
-
-    .info-label {
-        padding-right: 10px;
-        width: auto; /* Adjusted for responsiveness */
-    }
-}
+   
+  }
